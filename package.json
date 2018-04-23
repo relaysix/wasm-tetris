@@ -2,17 +2,15 @@
   "name": "wasm-tetris",
   "version": "1.0.0",
   "description": "webassembly tetris",
-  "main": "index.js",
   "scripts": {
+    "deploy": "cargo web deploy && node ./publish.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xuu/wasm-tetris.git"
   },
-  "keywords": [
-    "webassembly"
-  ],
+  "keywords": ["webassembly"],
   "author": "axu",
   "license": "MIT",
   "bugs": {
